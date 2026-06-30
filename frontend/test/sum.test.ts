@@ -1,5 +1,5 @@
 import { test, expect } from "vitest";
-import { sum } from "../src/sum.ts";
+import { sum } from "../src/utils/sum.ts";
 
 test("adds 1 + 2 to equal 3", () => {
   expect(sum(1, 2)).toBe(3);
